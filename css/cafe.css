@@ -1,0 +1,53 @@
+.menu-group{
+  border: 1px solid #000;
+  margin: 15px 0px;
+  width: 100%;
+}
+.menu-title{
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 14pt;
+  padding: 10px;
+}
+.menu-list{
+  list-style-type: none;
+  padding: 2px 0px;
+}
+.menu-item{
+  padding: 1px 10px;
+  margin: 2px 0px;
+  background: #DDD;
+}
+.float-right{
+  float:right; 
+  margin-right: 1%;
+  margin-top: -5px;
+  padding: 0;
+}
+
+.orderList {
+  background: #000;
+  color: #FFF;
+  padding: 5px 15px;
+  margin: 5px 0px;}
+
+.orderList p {
+  display: inline;
+  padding: 10px;
+  margin: 0px 5px; }
+  
+.orderList p a{ 
+  color: #FFFF99; 
+  text-decoration:none;}
+  
+.orderId {
+	min-width: 200px;
+	width:50%;
+	font-size: 14pt;}
+	
+.customer {
+  min-width: 200px;
+  font-size: 12pt;}
+
+table.table tbody tr td .raka{text-align:right; padding-right:15px;}
