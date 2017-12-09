@@ -15,7 +15,7 @@
 	$i=0;
 	while($i < count($menu)){
 		if( $menu[$i]['status'] == 'received'){
-			$ordStatus = "<input type='checkbox' name='olid' 
+			$ordStatus = "<input type='checkbox' name='olid'
 			value='".$menu[$i]['olid']."'> Received";
 		}else{
 			$ordStatus = "Done";
@@ -29,8 +29,8 @@
 		";
 		$i++;
 	}
-						
-	?>  
+
+	?>
     <tr>
       <td colspan='2' align='right'>&nbsp;</td>
       <td>
@@ -39,6 +39,11 @@
     </tr>
   </tbody>
 </table>
+<div>
+  <cener>
+    <a href="./">Kembali</a>
+  </cener>
+</div>
 <div id="testPost"></div>
 
 <script>
@@ -52,7 +57,7 @@ function orderDone(){
 				om.id.push(olid);
 			}
 		});
-		 
+
 		$.post('orderDone.php',{
 			olid: om.id
 		},function(result){

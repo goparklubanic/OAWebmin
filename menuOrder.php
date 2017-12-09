@@ -10,7 +10,7 @@
 	<?php
 	$menu = $adm->pickup2(	'menuList.nama,orderList_status status,orderList.qty',
 							'orderList, menuList',
-							"order_id = '".$_GET['id']."' && 
+							"order_id = '".$_GET['id']."' &&
 							menuList.menu_id = orderList.menu_id",'nama');
 	$i=0;
 	while($i < count($menu)){
@@ -23,9 +23,8 @@
 		";
 		$i++;
 	}
-						
-	?>  
+
+	?>
   </tbody>
 </table>
-
-
+<a href="javascript:void(0)" onclick="history.go(-1)">Kembali</a>
