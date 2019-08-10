@@ -1,19 +1,20 @@
 <?php
-/*
+
 //local
 $dbhost = "localhost";
 $dbname = "ayampedas";
 $dbuser = "chikenspicy";
 $dbpass = "penam80ngan";
-*/
+
 
 
 //internet
+/*
 $dbhost = "localhost";
 $dbname = "klubaner_cafe";
 $dbuser = "klubaner_omahal";
 $dbpass = "penam80Ngan";
-
+*/
 
 try
 { 
