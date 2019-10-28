@@ -51,3 +51,33 @@
   font-size: 12pt;}
 
 table.table tbody tr td .raka{text-align:right; padding-right:15px;}
+
+body#loginpage{
+  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(238, 238, 238, 0.450)),url("../login/begor.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+body#loginpage > div.container { background-color: transparent; }
+body#loginpage > div.container > div.row { background-color: transparent; }
+body#loginpage > div.container > div.col-lg-3,
+body#loginpage > div.container > div.col-lg-6 { background-color: transparent; }
+
+#loginbox{
+  height: 360px;
+  background-color: #a4ccccab;
+  margin-top: calc(50% - 150px);
+}
+
+#loginbanner {
+  background-color: #029752; color: white; font-size: 24px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center; padding: 10px 5px; font-weight: 700;
+}
+
+#loginform { padding: 30px; }
+#loginform > .form-group { margin-top: 30px;}
+.curved { padding: 20px; border-radius: 30px;}
+.submit-button { text-align: right; padding-right: 20px;}
+.btn-dark { background-color: black; color: white; font-style: italic; font-family: cursive;
+padding: 10px 45px; font-size: 18px; border-radius: 20px;}

@@ -25,6 +25,7 @@ $cook = new kitchen();
       <?php 
       include('menuOrder.php');
       ?>
+      <a href="../login/">Logout</a>
     </div>
   </div>
 </body>

@@ -44,6 +44,13 @@ error_reporting(E_ALL & ~E_NOTICE);
             <li class='menu-item'><a href='./?menu=rpt&cat=rvnue'>REVENUE</a></li>
           </div>
         </div>
+
+        <div class='menu-group'>
+          <div class='menu-title'>LOGOUT</div>
+          <div class='menu-list'>
+            <li class='menu-item'><a href='./login/'>Logout</a></li>
+          </div>
+        </div>
         
       </div> <!--menu -->
       
