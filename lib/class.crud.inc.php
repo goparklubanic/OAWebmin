@@ -1,5 +1,5 @@
 <?php
-define('rows',30);
+define('rows',60);
 class dbcrud
 {
    function transact($sql,$data=array()){
