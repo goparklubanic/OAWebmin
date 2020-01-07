@@ -36,6 +36,12 @@ class waiter extends dbcrud
 		while( $rs = $qry->fetch()){ array_push($bd,$rs); $total+=$rs['harga']; }
 		return array('data'=>$bd,'total'=>$total);
 	}
+
+	public function billClosed($id){
+		$sql = "UPDATE menuOrder SET status = 'paid' WHERE order_id = '$id' LIMIT 1";
+		$qry = $this->transact($sql);
+		if($qry){ return 'Order terBAYAR'; }else{ return 'Order terHUTANG'; }
+	}
 	
 	
 }
