@@ -42,6 +42,16 @@ class waiter extends dbcrud
 		$qry = $this->transact($sql);
 		if($qry){ return 'Order terBAYAR'; }else{ return 'Order terHUTANG'; }
 	}
+
+	public function todayMenu(){
+		$sql = "SELECT menu_id , nama , photo FROM menuList WHERE todayMenu = '1'";
+		$qry = $this->transact($sql);
+		$todayMenu = [];
+		while($res = $qry->fetch()){
+			array_push($todayMenu,$res);
+		}
+		return $todayMenu;
+	}
 	
 	
 }
