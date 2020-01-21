@@ -16,6 +16,17 @@ error_reporting(E_ALL & ~E_NOTICE);
 </head>
 <body>
   <div class='container-fluid'>
+    <div class="row pageHeader">
+      <div class="col-md-2">
+        <div id="logoHolder">
+          <img src="img/logo.png" alt="Logo" >
+        </div>
+      </div>
+      <div class="col-md-10" id="titleHead">
+        <h2>FRIENDS Seafood Resto</h2>
+        <h3>Jl. Raya Banyumas, Sumampir, Banjarnegara</h3>
+      </div>
+    </div>
     <div class='row'>
       <div class='col-sm-2'> <!--menu -->
         <div class='menu-group'>

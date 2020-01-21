@@ -2,6 +2,7 @@
 if($_GET['cat']=='menus'){
 	
 	echo "
+	<div class='menu-title'> <h4>Laporan Menu</h4></div>
 	<table class='table'>
 	  <thead>
 	    <tr>
@@ -24,6 +25,7 @@ if($_GET['cat']=='menus'){
 if($_GET['cat']=='order'){
 	
 	echo "
+	<div class='menu-title'> <h4>Laporan Order</h4></div>
 	<table class='table'>
 	  <thead>
 	    <tr>
@@ -46,6 +48,7 @@ if($_GET['cat']=='order'){
 if($_GET['cat']=='rvnue'){
 	
 	echo "
+	<div class='menu-title'> <h4>Laporan Pemasukan</h4></div>
 	<table class='table'>
 	  <thead>
 	    <tr>

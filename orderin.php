@@ -1,4 +1,6 @@
-<h3>ORDER MASUK</h3>
+<div class="menu-title">
+	<h4>ORDER MASUK</h4>
+</div>
 <table class='table table-sm'>
   <thead>
     <tr>
